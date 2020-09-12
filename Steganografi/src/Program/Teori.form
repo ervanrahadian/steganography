@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Nirmala UI" size="18" style="0"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[50, 30]"/>
+        </Property>
+      </Properties>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="mnPilihan">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pilihan"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Nirmala UI" size="18" style="0"/>
+            </Property>
+            <Property name="horizontalTextPosition" type="int" value="10"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[80, 30]"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnKembali">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Nirmala UI" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Kembali"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnKembaliActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Teori"/>
+    <Property name="iconImages" type="java.util.List" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="null"/>
+    </Property>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[0, 0]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1280, 690]"/>
+    </Property>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1280, 720]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-48,0,0,5,0"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="140" y="50" width="1000" height="550"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="contentType" type="java.lang.String" value="text/html" noResource="true"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Nirmala UI" size="20" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xd;&#xa;  &lt;head&gt;&#xd;&#xa;&#xd;&#xa;  &lt;/head&gt;&#xd;&#xa;  &lt;body&gt;&#xd;&#xa;&#x9;&lt;font size=&quot;5&quot; face=&quot;Nirmala UI&quot;&gt;&#xa;&#x9;&lt;b&gt;Steganografi&lt;/b&gt;&#xa;&#x9;&lt;p&gt;Steganografi adalah ilmu dan seni menyembunyikan pesan rahasia di dalam pesan lain sehingga keberadaan pesan &#xa;&#x9;rahasia tersebut tidak dapat diketahui. Steganografi berasal dari Bahasa Yunani, steganos yang berarti terselubung &#xa;&#x9;dan graphein yang berarti tulisan. Sehingga steganografi dapat diartikan sebagai tulisan yang terselubung.&lt;/p&gt;&#xa;&#x9;&lt;p&gt;Steganografi termasuk dalam security through obscurity. Steganografi biasa digunakan oleh teroris, intelijen, &#xa;&#x9;atau militer dalam menyampaikan pesan sehingga tidak diketahui orang lain.&lt;/p&gt;&#xa;&#x9;&lt;p&gt;Steganografi membutuhkan dua properti yaitu media penampung dan pesan rahasia. Media penampung &#xa;&#x9;yang umum digunakan adalah gambar, suara, video atau teks. Pesan yang disembunyikan dapat berupa &#xa;&#x9;sebuah teks, gambar, daftar barang, kode program atau pesan lain.&lt;/p&gt;&#xa;&#x9;&lt;p&gt;Penggunaan steganografi bertujuan untuk menyamarkan keberadaan data rahasia sehingga sulit  dideteksi &#xa;&#x9;dan melidungi hak cipta suatu produk. Steganografi dapat dipandang sebagai kelanjutan kriptografi. Jika &#xa;&#x9;pada kriptografi, data yang telah disandikan atau ciphertext tetap tersedia, maka dengan steganografi &#xa;&#x9;ciphertext dapat disembunyikan sehingga pihak ketiga tidak mengetahui keberadaannya. Data rahasia yang &#xa;&#x9;disembunyikan dapat diekstraksi kembali persis sama seperti keadaan aslinya.&lt;/P&gt;&#xa;&#x9;&lt;p&gt;Keuntungan steganografi dibandingkan dengan kriptografi adalah bahwa pesan yang dikirim tidak menarik &#xa;&#x9;perhatian sehingga media penampung yang membawa pesan tidak menimbulkan kecurigaan bagi pihak &#xa;&#x9;ketiga. Ini berbeda dengan kriptografi dimana ciphertext menimbulkan kecurigaan bahwa pesan tersebut &#xa;&#x9;merupakan pesan rahasia.&lt;/p&gt;&lt;br&gt;&#xa;&#x9;&#xa;&#x9;&lt;b&gt;Algoritma Least Significant Bit (LSB)&lt;/b&gt;&#xa;&#x9;&lt;p&gt;Algoritma Least Significant Bit merupakan teknik subtitusi pada steganografi, biasanya, arsip 24-bit atau 8-bit &#xa;&#x9;digunakan untuk menyimpan citra digital. Representasi warna dari piksel bisa diperoleh dari warna-warna &#xa;&#x9;pokok, yaitu merah, hijau dan biru. Citra 24-bit menggunakan 3 bytes untuk masing-masing piksel, kemudian &#xa;&#x9;setiap warna pokok direpresentasikan dengan ukuran 1 byte. Penggunaan citra 24-bit memungkinkan setiap &#xa;&#x9;piksel direpresentasikan dengan nilai warna sebanyak 16.777.216 macam. Dua bit dari saluran warna tersebut &#xa;&#x9;bisa digunakan untuk menyembunyikan data, yang akan mengubah jenis warna piksel-nya menjadi 64 warna. &#xa;&#x9;Namun, hal itu akan mengakibatkan sedikit perbedaan yang bisa dideteksi secara kasat mata oleh manusia. &#xa;&#x9;Algoritma sederhana itu disebut Least Significant Bit (LSB).&lt;/p&gt;&lt;br&gt;&#xa;&#x9;&#xa;&#x9;&lt;b&gt;Kriptografi&lt;/b&gt;&#xa;&#x9;&lt;p&gt;Kriptografi berasal dari Bahasa Yunani, terdiri dari dua suku kata yaitu kripto dan graphia. Kripto artinya &#xa;&#x9;menyembunyikan, sedangkan graphia artinya tulisan. Kriptografi adalah ilmu yang mempelajari teknik-teknik &#xa;&#x9;matematika yang berhubungan dengan aspek keamanan informasi, seperti kerahasiaan data, validitas data, &#xa;&#x9;integritas data, serta autentikasi data. Tetapi tidak semua aspek keamanan informasi dapat diselesaikan &#xa;&#x9;dengan kriptografi.&lt;/p&gt;&#xa;&#x9;&lt;p&gt;Kriptografi dapat pula diartikan sebagai ilmu atau seni untuk menjaga keamanan pesan. Pada prinsipnya, &#xa;&#x9;kriptografi memiliki 4 komponen utama yaitu Plaintext pesan yang dapat dibaca, Ciphertext pesan acak yang &#xa;&#x9;tidak dapat dibaca, Key sebuah kunci untuk melakukan teknik kriptografi dan Algorithm metode untuk &#xa;&#x9;melakukan enkrispi dan dekripsi.&lt;/p&gt;&lt;br&gt;&#xa;&#x9;&#xa;&#x9;&lt;b&gt;Algoritma Cipher&lt;/b&gt;&#xa;&#x9;&lt;p&gt;Algoritma Cipher merupakan teknik substitusi yang membentuk cipher dengan cara melakukan penukaran &#xa;&#x9;karakter pada plaintext menjadi tepat satu karakter pada ciphertext. Teknik seperti ini disebut juga sebagai &#xa;&#x9;sandi abjad tunggal. Sandi ini termasuk sandi substitusi dimana setiap huruf pada teks (plaintext) digantikan &#xa;&#x9;oleh huruf lain yang memiliki selisih posisi tertentu dalam alfabet.&lt;/p&gt;&lt;br&gt;&#xa;&#x9;&#xa;&#x9;&lt;b&gt;Perbedaan Steganografi dan Kriptografi&lt;/b&gt;&#xa;&#x9;&lt;p&gt;Perbedaan yang mendasar mengenai kriptografi dan steganografi adalah hasil tampilan pesan ketika sudah &#xa;&#x9;disisipi pesan rahasia. Pada kriptografi pesan yang sudah disisipi pesan rahasia akan sangat berbeda dengan &#xa;&#x9;pesan sebelum disisipi pesan rahasia. Maka bagi pihak ketiga yang melihat pesan hasil keluaran kriptografi &#xa;&#x9;akan curiga walaupun pihak ketiga tersebut juga tidak mengetahui maksud dari pesan tersebut.&lt;/P&gt;&#xa;&#x9;&lt;p&gt;Sedangkan pada steganografi, pesan yang sudah disisipi pesan rahasia akan tampak sama (dengan kasat &#xa;&#x9;mata) dengan pesan sebelum disisipi pesan rahasia (pesan rahasia tersamarkan dalam cover text). Sehingga &#xa;&#x9;pihak ketiga tidak tahu bahwa dibalik pesan asli (cover text) tersembunyi pesan rahasia dibaliknya.&lt;/p&gt;&#xa;&#x9;&lt;/font&gt;&#xa;  &lt;/body&gt;&#xd;&#xa;&lt;/html&gt;&#xd;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblCopyright">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Nirmala UI" size="18" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="&#xa9; 2020 - Ervan Rahadian Hakim -"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="640" width="1260" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBackground">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="C:\Users\msi\Documents\NetBeansProjects\Steganografi\Background2.jpg"/>
+        </Property>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1280" height="690"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
